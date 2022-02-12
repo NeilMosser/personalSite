@@ -1,0 +1,39 @@
+{
+  "name": "personalsite",
+  "version": "1.0.0",
+  "description": "Neil's personal website",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack --config ./webpack.config.js --mode development -w",
+    "start": "nodemon ./backend/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NeilMosser/personalSite.git"
+  },
+  "author": "Neil Mosser",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NeilMosser/personalSite/issues"
+  },
+  "homepage": "https://github.com/NeilMosser/personalSite#readme",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "babel-loader": "^8.2.3",
+    "dotenv": "^16.0.0",
+    "dotenv-webpack": "^7.1.0",
+    "express": "^4.17.2",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-router": "^6.2.1",
+    "webpack": "^5.68.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "webpack-cli": "^4.9.2"
+  }
+}
