@@ -1,8 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar.jsx';
+import RouteComponent from './RouteComponent.jsx';
 
 const App = () => {
   return (
-    <div>Works!</div>
+    <div className='app-container'>
+      <Navbar />
+      <RouteComponent />
+      
+    </div>
   )
 }
 
